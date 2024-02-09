@@ -25,3 +25,25 @@ int doRandomStuff(int n, int m) {
     ans++;
   return ans;
 }
+
+int RaceToN(int N) { // N > 1
+  int start = 1, steps = 0;
+  
+  while(start < N) {
+    start *= start;
+    steps++;
+  }
+
+  return steps;
+}
+
+int RaceToNAgain(int N) { // N > 1
+  int st = 2, steps = 0;
+  
+  while(st < N) {
+    st *= st;
+    steps++;
+  }
+
+  return steps;
+}
