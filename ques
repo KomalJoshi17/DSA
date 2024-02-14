@@ -16,3 +16,40 @@ https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/descripti
 https://codeforces.com/contest/1920/problem/A
 
 https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/amp/
+
+# include <climits>
+class Solution {
+public:
+    vector<int> luckyNumbers (vector<vector<int>>& matrix) {
+        int m=matrix.size();
+        int n=matrix[0].size();
+        int min_num_row=INT_MAX;
+        int max_num_col=INT_MIN;
+        vector<int>ans;
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (matrix[i][j] < min_num_row) {
+                    min_num_row = matrix[i][j];
+                }
+            }
+        }
+
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (matrix[i][j] > max_num_col) {
+                    max_num_col = matrix[i][j];
+                }
+            }
+        }
+
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (min_num_row == matrix[i][j]) {
+                    ans.push_back(min_num_row);
+                }
+            }
+        }
+
+        return ans;
+    }
+}; ans is coming wrong
