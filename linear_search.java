@@ -26,3 +26,32 @@ class Main {
     }
 }
 
+// User function Template for Java
+
+// Time: O(N)
+// Space: O(LogN)
+
+class Solution {
+    int searchHelper(int arr[], int st, int en, int k) {
+        if(st > en)
+            return -1;
+            
+        if(st == en)
+            return arr[st] == k? st : -1;
+        
+        int mid = (st + en)/2;    
+        int firstHalf = searchHelper(arr, st, mid, k);
+        
+        if(firstHalf != -1)
+            return firstHalf;
+            
+        int secondHalf = searchHelper(arr, mid + 1, en, k);
+        
+        return secondHalf;
+    }
+    
+    public int search(int arr[], int n, int k) {
+        int ans = searchHelper(arr, 0, n - 1, k);
+        return ans == -1? ans : ans + 1; // convert 0-based to 1-based.
+    }
+}
