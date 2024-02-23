@@ -6,3 +6,11 @@ Big O Notation	A mathematical notation that describes the limiting behavior of a
 Recursion	A programming technique where a function calls itself.
 Divide and Conquer	A method of solving complex problems by breaking them into smaller, more manageable sub-problems, solving the sub-problems, and combining the solutions. Recursion is often used when using this method in an algorithm.
 Brute Force	A simple and straight forward way an algorithm can work by simply trying all possible solutions and then choosing the best one.
+
+
+https://leetcode.com/problems/fibonacci-number/description/
+https://www.geeksforgeeks.org/problems/pascal-triangle0652/1
+https://www.geeksforgeeks.org/problems/print-pattern3549/1
+https://leetcode.com/problems/subsets/description/
+https://www.codingninjas.com/studio/problems/subarrays-with-sum-‘k'_6922076
+
