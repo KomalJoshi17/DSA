@@ -51,15 +51,15 @@ public class Solution {
 
     // Unweave the linked list to get back the original linked list and the cloned list.
     // i.e. A->A'->B->B'->C->C' would be broken to A->B->C and A'->B'->C'
-    Node ptr_old_list = head; // A->B->C
-    Node ptr_new_list = head.next; // A'->B'->C'
-    Node head_new = head.next;
-    while (ptr_old_list != null) {
-      ptr_old_list.next = ptr_old_list.next.next;
-      ptr_new_list.next = (ptr_new_list.next != null) ? ptr_new_list.next.next : null;
-      ptr_old_list = ptr_old_list.next;
-      ptr_new_list = ptr_new_list.next;
-    }
-    return head_new;
-  }
-}
+//     Node ptr_old_list = head; // A->B->C
+//     Node ptr_new_list = head.next; // A'->B'->C'
+//     Node head_new = head.next;
+//     while (ptr_old_list != null) {
+//       ptr_old_list.next = ptr_old_list.next.next;
+//       ptr_new_list.next = (ptr_new_list.next != null) ? ptr_new_list.next.next : null;
+//       ptr_old_list = ptr_old_list.next;
+//       ptr_new_list = ptr_new_list.next;
+//     }
+//     return head_new;
+//   }
+// }
