@@ -12,21 +12,21 @@ bool comp(int a, int b) {
     return false;
 }
 
-int main() {
-    int n = 4;
-    int arr[] = {4, 1, 3, 2};
-    sort(arr, arr + n, comp);
+// int main() {
+//     int n = 4;
+//     int arr[] = {4, 1, 3, 2};
+//     sort(arr, arr + n, comp);
 
-    for(int i = 0; i < n; ++i)
-        cout << arr[i] << ' ';
-    cout << '\n';
+//     for(int i = 0; i < n; ++i)
+//         cout << arr[i] << ' ';
+//     cout << '\n';
 
-    vector<int> v = {3, 1, 2, 4, 5};
+//     vector<int> v = {3, 1, 2, 4, 5};
 
-    sort(v.begin(), v.end());
+//     sort(v.begin(), v.end());
 
-    for(int num : v)
-        cout << num << ' ';
-    cout << '\n';
-	return 0;
-}
+//     for(int num : v)
+//         cout << num << ' ';
+//     cout << '\n';
+// 	return 0;
+// }
