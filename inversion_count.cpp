@@ -43,22 +43,22 @@ class Solution{
         if(N == 1)
             return 0;
             
-//         long long *left = new long long[N/2];
+        long long *left = new long long[N/2];
         
-//         for(int i = 0; i < N/2; ++i)
-//             left[i] = arr[i];
+        for(int i = 0; i < N/2; ++i)
+            left[i] = arr[i];
             
-//         long long *right = new long long[N - N/2];
+        long long *right = new long long[N - N/2];
         
-//         for(int i = 0, j = N/2; j < N; ++j, ++i)
-//             right[i] = arr[j];
+        for(int i = 0, j = N/2; j < N; ++j, ++i)
+            right[i] = arr[j];
             
-//         return inversionCount(left, N/2) + inversionCount(right, N - N/2) + mergeAndCount(arr, left, right, N/2, N - N/2);
-//     }
+        return inversionCount(left, N/2) + inversionCount(right, N - N/2) + mergeAndCount(arr, left, right, N/2, N - N/2);
+    }
 
-// };
+};
 
-// int main() {
-// 	// your code goes here
+int main() {
+	// your code goes here
 // 	return 0;
 // }
