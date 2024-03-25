@@ -33,14 +33,14 @@ public:
     }
 };
 
-// int main() {
-//     int n; cin >> n;
-//     vector<int> arr(n);
-//     for(int i = 0; i < n; ++i)
-//         cin >> arr[i];
-//     Solution sol;
-//     vector<int> ans = sol.getSumAbsoluteDifferences(arr);
-//     for(int num : ans)
-//         cout << num << ' ';
-// 	return 0;
-// }
+int main() {
+    int n; cin >> n;
+    vector<int> arr(n);
+    for(int i = 0; i < n; ++i)
+        cin >> arr[i];
+    Solution sol;
+    vector<int> ans = sol.getSumAbsoluteDifferences(arr);
+    for(int num : ans)
+        cout << num << ' ';
+	return 0;
+}
