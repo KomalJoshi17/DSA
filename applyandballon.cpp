@@ -40,14 +40,14 @@ int main() {
 	        min_thershold = mid_thershold + 1;
 	    }
 	} 
-	//O(log(max(ai*bi) * n)
-// 	for(long long i = min_thershold; i <= max_thershold; i++) {
-// 	    long long req_balloons = reqBalloons(i, balloon_demand, candies_per_balloon);
-// 	    if(req_balloons <= m) {
-// 	        cout<<i;
-// 	        break;
-// 	    }
-// 	}
+	O(log(max(ai*bi) * n)
+	for(long long i = min_thershold; i <= max_thershold; i++) {
+	    long long req_balloons = reqBalloons(i, balloon_demand, candies_per_balloon);
+	    if(req_balloons <= m) {
+	        cout<<i;
+	        break;
+	    }
+	}
     cout<<ans;
 	return 0;
 }
