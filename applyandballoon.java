@@ -30,22 +30,22 @@ class Solution {
     }
 }
 
-// class Main {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         int n = sc.nextInt();
-//         long m = sc.nextLong();
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        long m = sc.nextLong();
         
-//         int a[] = new int[n];
-//         int b[] = new int[n];
+        int a[] = new int[n];
+        int b[] = new int[n];
         
-//         for(int i = 0; i < n; ++i)
-//             a[i] = sc.nextInt();
+        for(int i = 0; i < n; ++i)
+            a[i] = sc.nextInt();
             
-//         for(int i = 0; i < n; ++i)
-//             b[i] = sc.nextInt();
+        for(int i = 0; i < n; ++i)
+            b[i] = sc.nextInt();
 
-//         Solution sol = new Solution();
-//         System.out.println(sol.getMinCandies(a, b, m));
-//     }
-// }
+        Solution sol = new Solution();
+        System.out.println(sol.getMinCandies(a, b, m));
+    }
+}
