@@ -1,13 +1,13 @@
-import java.util.*;
+// import java.util.*;
 
-class Main {
-    public static void main(String[] args) {
-        ArrayList<Integer> arr1 = new ArrayList<>();
-        System.out.println(arr1 + " -> " + arr1.size());
+// class Main {
+//     public static void main(String[] args) {
+//         ArrayList<Integer> arr1 = new ArrayList<>();
+//         System.out.println(arr1 + " -> " + arr1.size());
 
-        arr1.add(1);
-        arr1.add(2);
-        arr1.add(3);
+//         arr1.add(1);
+//         arr1.add(2);
+//         arr1.add(3);
         arr1.add(4);
 
         System.out.println(arr1 + " -> " + arr1.size());
