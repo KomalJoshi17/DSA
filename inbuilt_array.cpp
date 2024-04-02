@@ -9,13 +9,13 @@ using namespace std;
 
 //     cout << v2.size() << '\n';
 
-//     for(int i = 0; i < v2.size(); ++i)
-//         cout << v2[i] << ' ';
-//     cout << '\n';
+    for(int i = 0; i < v2.size(); ++i)
+        cout << v2[i] << ' ';
+    cout << '\n';
 
-//     for(int i = 0; i < v3.size(); ++i)
-//         cout << v3[i] << ' ';
-//     cout << '\n';
+    for(int i = 0; i < v3.size(); ++i)
+        cout << v3[i] << ' ';
+    cout << '\n';
 
 
 //     v1.push_back(5);
