@@ -27,9 +27,9 @@ class Main {
 
         // Collections.sort(ArrayList);
 
-        for(int x : arr) {
-            System.out.print(x + " ");
-        }
+//         for(int x : arr) {
+//             System.out.print(x + " ");
+//         }
 
-    }
-}
+//     }
+// }
