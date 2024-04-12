@@ -32,18 +32,18 @@ class Solution {
     }
 }
 
-class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
+// class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int N = sc.nextInt();
 
-        int arr[] = new int[N];
+//         int arr[] = new int[N];
 
-        for(int i = 0; i < N; ++i)
-            arr[i] = sc.nextInt();
+//         for(int i = 0; i < N; ++i)
+//             arr[i] = sc.nextInt();
 
-        Solution obj = new Solution();
+//         Solution obj = new Solution();
 
-        System.out.println(Arrays.toString(obj.getSumAbsoluteDifferences(arr)));
-    }
-}
+//         System.out.println(Arrays.toString(obj.getSumAbsoluteDifferences(arr)));
+//     }
+// }
